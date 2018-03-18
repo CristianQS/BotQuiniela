@@ -10,7 +10,7 @@ var url = "https://resultados.as.com/quiniela/2017_2018/jornada_"
 
 bot.onText(/\/start/, (msg) => {
     bot.sendMessage(msg.chat.id, "Ve los resultados de la quiniela de" 
-    +"la liga Santander\n con el comando: /jornada01, /jornada10, etc");
+    +"la liga Santander\n con el comando: /jornada 1, /jornada 10, etc");
 });
 
 bot.onText(/\/jornada (.+)/, (msg,match) => {
